@@ -22,8 +22,78 @@ html
     background-size: cover;
 }
 
+h1
+{
+    font-weight: bold;
+    font-size: 45px;
+
+    color: var(--blue);
+}  
+
+h2
+{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+p
+{
+    font-size: 18px;
+}
+
+.header, .site-logo, .menu, .menu ul
+{
+    display: flex;
+}
+
+.site-logo
+{
+    float: left;
+}
+
 .site-logo h2
 {
     font-weight: normal;
     font-family: 'MedievalSharp', cursive;
+}
+
+.menu
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.menu ul
+{
+    list-style-type: none;
+}
+
+.menu a, .menu a:visited, .menu a:hover, .menu a:active 
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+.content
+{
+    width: 50%;
+}
+
+.content button
+{
+    border: none;
+    box-sizing: border-box;
+    background-color: var(--blue);
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social-buttons button
+{
+    border: none;
+    box-sizing: border-box;
+    background-color: var(--light-black);
 }
