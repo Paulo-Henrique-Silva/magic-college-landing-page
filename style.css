@@ -21,24 +21,11 @@ html
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-h1
-{
-    font-weight: bold;
-    font-size: 45px;
-
-    color: var(--blue);
-}  
-
+  
 h2
 {
     font-weight: 600;
     font-size: 36px;
-}
-
-p
-{
-    font-size: 18px;
 }
 
 .header, .site-logo, .menu, .menu ul
@@ -49,6 +36,11 @@ p
 .site-logo
 {
     float: left;
+}
+
+.site-logo img
+{
+    margin-right: 40px;
 }
 
 .site-logo h2
@@ -75,24 +67,65 @@ p
     text-decoration: none;
 }
 
+.menu li
+{
+    font-size:  27px;
+    margin-left: 40px;
+}
+
 .content
 {
+    margin: auto 0px;
     width: 50%;
 }
 
-.content button
+#span-title1
 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+#span-title2
+{
+    font-weight: bold;
+    font-size: 45px;
+
+    color: var(--blue);
+
+    margin-bottom: 14px;
+}
+
+.content p
+{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#btn-cursos
+{
+    width: 200px;
+    height: 43px;
+    
     border: none;
+    border-radius: 43px;
     box-sizing: border-box;
     background-color: var(--blue);
-
+    
     font-size: 18px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+    
+    margin-bottom: 90px;
 }
 
 .social-buttons button
 {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    margin-right: 40px;
+
     border: none;
     box-sizing: border-box;
     background-color: var(--light-black);
